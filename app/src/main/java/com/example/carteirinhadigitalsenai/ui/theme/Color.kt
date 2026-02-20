@@ -1,6 +1,5 @@
 package com.example.carteirinhadigitalsenai.ui.theme
 
-package com.example.compose
 import androidx.compose.ui.graphics.Color
 
 val primaryLight = Color(0xFF8C4A60)
