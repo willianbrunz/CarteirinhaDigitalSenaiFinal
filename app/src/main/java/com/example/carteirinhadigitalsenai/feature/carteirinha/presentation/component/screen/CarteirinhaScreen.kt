@@ -1,4 +1,4 @@
-package com.example.carteirinhadigitalsenai.feature.carteirinha.presentation
+package com.example.carteirinhadigitalsenai.feature.carteirinha.presentation.component.screen
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
@@ -20,12 +20,12 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 import com.example.carteirinhadigitalsenai.R
 import com.example.carteirinhadigitalsenai.feature.carteirinha.presentation.component.LabelText
+import com.example.carteirinhadigitalsenai.feature.carteirinha.presentation.component.QrCode
 import com.example.carteirinhadigitalsenai.feature.carteirinha.presentation.component.ValueText
-import com.rafaelcosta.myapplication.QrCode
 
 
 @Composable
-fun CartirinhaScreen (modifier: Modifier = Modifier) {
+fun CarteirinhaScreen (modifier: Modifier = Modifier) {
     Box() {
         Image(
             painter = painterResource(R.drawable.d9003ca94a2692db7bf8e88d09f52616),
@@ -55,7 +55,7 @@ fun CartirinhaScreen (modifier: Modifier = Modifier) {
                     .weight(.1f)
             )
             Image(
-                painter = painterResource(R.drawable.icone_de_maquete_de_personagem_de_homem_redondo_cor_plana_icone_de_homem_redondo_azul_camiseta_e_modelo_de_personagem_de_cabelo_castanho_icone_vetor_774778_2418_925624113),
+                painter = painterResource(R.drawable._4194216_icone_de_avatar_humano_distintivo_de_uma_pessoa_simbolo_de_perfil_de_midia_social_o_simbolo_de_uma_pessoa_vetor),
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
