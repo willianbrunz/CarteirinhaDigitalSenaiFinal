@@ -30,7 +30,7 @@ fun PerfilAluno(modifier: Modifier = Modifier) {
         )
     ) {
         Image(
-            painter = painterResource(R.drawable._4194216_icone_de_avatar_humano_distintivo_de_uma_pessoa_simbolo_de_perfil_de_midia_social_o_simbolo_de_uma_pessoa_vetor),
+            painter = painterResource(R.drawable.user_male_circle__v2),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier

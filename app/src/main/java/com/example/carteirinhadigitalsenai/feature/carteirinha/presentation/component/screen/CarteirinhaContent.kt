@@ -29,7 +29,7 @@ fun CarteirinhaContent(
         modifier = modifier.fillMaxSize()
     ) {
         Image(
-            painter = painterResource(R.drawable.d9003ca94a2692db7bf8e88d09f52616),
+            painter = painterResource(R.drawable.images),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier

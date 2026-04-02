@@ -4,7 +4,7 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
-import com.example.carteirinhadigitalsenai.feature.auth.presentation.LoginScreen
+import com.example.carteirinhadigitalsenai.feature.auth.presentation.screen.LoginScreen
 import com.example.carteirinhadigitalsenai.feature.carteirinha.presentation.component.screen.CarteirinhaScreen
 import com.example.carteirinhadigitalsenai.feature.home.presentation.screen.HomeScreen
 

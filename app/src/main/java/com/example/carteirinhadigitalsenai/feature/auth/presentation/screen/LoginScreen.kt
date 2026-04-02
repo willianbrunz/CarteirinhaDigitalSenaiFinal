@@ -1,4 +1,4 @@
-package com.example.carteirinhadigitalsenai.feature.auth.presentation
+package com.example.carteirinhadigitalsenai.feature.auth.presentation.screen
 
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue

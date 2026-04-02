@@ -28,7 +28,7 @@ import com.example.carteirinhadigitalsenai.feature.carteirinha.presentation.comp
 fun CarteirinhaScreen (modifier: Modifier = Modifier) {
     Box() {
         Image(
-            painter = painterResource(R.drawable.d9003ca94a2692db7bf8e88d09f52616),
+            painter = painterResource(R.drawable.images),
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier
@@ -55,7 +55,7 @@ fun CarteirinhaScreen (modifier: Modifier = Modifier) {
                     .weight(.1f)
             )
             Image(
-                painter = painterResource(R.drawable._4194216_icone_de_avatar_humano_distintivo_de_uma_pessoa_simbolo_de_perfil_de_midia_social_o_simbolo_de_uma_pessoa_vetor),
+                painter = painterResource(R.drawable.user_male_circle__v2),
                 contentDescription = null,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier
